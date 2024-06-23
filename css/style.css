@@ -1,3 +1,107 @@
-h1{
-    color: aqua;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background-color:black
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+.section-one,
+.section-two,
+.section-three {
+    max-width: 1536px;
+    margin-inline: auto;
+}
+
+.section-one {
+    text-align: center;
+}
+
+.section-one h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+.section-one h2 {
+    margin-top: 20px;
+    color: white;
+}
+
+.section-one .img-wrapper {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.section-one img {
+    object-fit: contain;
+}
+
+.section-two {
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+}
+
+.section-two p {
+    margin-top: 32px;
+    color: white;
+    font-size: large;
+}
+
+
+.section-two .img-wrapper {
+    margin-top: 64px;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-two img {
+    object-fit: contain;
+}
+
+.section-three {
+    margin-top: 48px;
+    text-align: center;
+    color: white;
+}
+
+.section-three p {
+    margin-top: 24px;
+    color: white;
+    font-size: large;
+}
+
+.section-three .img-wrapper {
+    margin-top: 48px;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-three img {
+    object-fit: contain;
+}
+
+footer {
+    text-align: center;
+    margin-top: 48px;
+    padding-bottom: 48px;
+    color: white;
 }
